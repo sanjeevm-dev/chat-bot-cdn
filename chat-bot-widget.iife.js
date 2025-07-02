@@ -18794,7 +18794,7 @@ Error generating stack: ` +
         Z = async () => {
           try {
             o(!0);
-            const k = await fetch("http://localhost:9000/api/voice/token", {
+            const k = await fetch("http://localhost:8000/api/voice/token", {
                 method: "GET",
               }),
               { client_secret: tt } = await k.json(),
@@ -18967,7 +18967,7 @@ Error generating stack: ` +
         ],
       });
     },
-    Zb = "http://localhost:8000/api/theme",
+    Zb = "http://localhost:8000/api/theme/6843f2fbae76a4ebf974c3c0",
     Qb = "http://localhost:8000/api/chat";
   function Kb() {
     const [a, l] = H.useState(null),
