@@ -18739,7 +18739,7 @@ Error generating stack: ` +
       ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
       ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
     ]),
-    Xb = "https://chat-bot-backend-1-28ro.onrender.com/api/voice/token",
+    Xb = "http://localhost:8000/api/voice/token",
     Zb = ({
       setMessages: a,
       shouldStartCall: l,
@@ -18966,9 +18966,8 @@ Error generating stack: ` +
         ],
       });
     },
-    Qb =
-      "https://chat-bot-backend-1-28ro.onrender.com/api/theme/6843f2fbae76a4ebf974c3",
-    Kb = "https://chat-bot-backend-1-28ro.onrender.com/api/chat";
+    Qb = "http://localhost:8000/api/theme/6843f2fbae76a4ebf974c3",
+    Kb = "http://localhost:8000/api/chat";
   function kb() {
     const [a, l] = L.useState(null),
       [u, o] = L.useState([]),
